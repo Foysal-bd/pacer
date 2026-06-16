@@ -1118,7 +1118,6 @@ button:hover, .button:hover, .wp-block-post-excerpt__more-link:hover, .wp-block-
   box-shadow: 0 0.625rem 1.25rem 0 rgba(1, 1, 1, 0.1);
 }
 
-/* home */
 /* variables */
 body {
   --gw-primary-bg: #191919;
@@ -1129,3 +1128,42 @@ body {
   --gw-gray: #484848;
   --gw-brand-color: #EB4719;
 }
+
+/* font */
+/* Regular (400) */
+@font-face {
+  font-family: 'Instrument Sans';
+  src: url("/public/assets/fonts/InstrumentSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: 'Instrument Sans';
+  src: url("/public/assets/fonts/InstrumentSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Semi-Bold (600) */
+@font-face {
+  font-family: 'Instrument Sans';
+  src: url("/public/assets/fonts/InstrumentSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: 'Instrument Sans';
+  src: url("/public/assets/fonts/InstrumentSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Instrument Sans', sans-serif;
+}
+
+/* home */
