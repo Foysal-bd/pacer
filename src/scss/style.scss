@@ -18,6 +18,12 @@ $public_path: "./public";
 /* a11y */
 @import "./_a11y";
 
+/* home */
+@import "./_home";
+
+/* variables */
+@import "./_variables";
+
 /* align */
 // .alignnone {
 //   margin: 5px 20px 20px 0;

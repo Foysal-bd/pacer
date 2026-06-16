@@ -1,25 +1,47 @@
-<!-- wp:template-part {"slug":"header-with-logo","textColor":"dark-silver","layout":{"inherit":true}} /-->
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- wp:query {"queryId":27,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"tagName":"main","displayLayout":{"type":"list","columns":3},"layout":{"inherit":true}} -->
-<main class="wp-block-query"><!-- wp:post-template {"className":"blog-layout-full"} -->
-<!-- wp:post-featured-image {"isLink":true,"width":"","align":"center","className":"margin-top-0 margin-bottom-35"} /-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
 
-<!-- wp:post-title {"textAlign":"left","isLink":true,"className":"margin-top-0 margin-bottom-10"} /-->
+<body>
+	<header class="gw-header">
+		<!-- Site Logo -->
+		<div class="gw-logo">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+				stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+				class="lucide lucide-git-branch-icon lucide-git-branch">
+				<path d="M15 6a9 9 0 0 0-9 9V3" />
+				<circle cx="18" cy="6" r="3" />
+				<circle cx="6" cy="18" r="3" />
+			</svg>
+			<a href="/">Gitwire</a>
+		</div>
 
-<!-- wp:group {"className":"entry-meta"} -->
-<div class="wp-block-group entry-meta"><!-- wp:post-author {"showAvatar":false,"showBio":false,"byline":"By"} /-->
+		<!-- Navigation -->
+		<nav class="gw-navigation">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/features">Features</a></li>
+				<li><a href="/pricing">Pricing</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="/docs">Docs</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</nav>
 
-<!-- wp:post-terms {"term":"category","className":"mt-0"} /-->
+		<!-- Theme Toggle and Signup/Login -->
+		<div class="gw-actions">
+			<button id="theme-toggle">Toggle Theme</button>
+			<a href="/signup">Sign Up</a>
+		</div>
+	</header>
+	<main>
+		<p class="test">Hello, World!</p>
+	</main>
+</body>
 
-<!-- wp:post-date {"className":"mt-0"} /--></div>
-<!-- /wp:group -->
-
-<!-- wp:post-excerpt {"textAlign":"left","moreText":"Read More","className":"clearfix margin-top-5"} /-->
-<!-- /wp:post-template -->
-
-<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"center"}} -->
-<!-- wp:query-pagination-numbers /-->
-<!-- /wp:query-pagination --></main>
-<!-- /wp:query -->
-
-<!-- wp:template-part {"slug":"footer-default","className":"margin-top-50","layout":{"inherit":true}} /-->
+</html>
