@@ -73,8 +73,8 @@
 			"lineHeight": "1.8"
 		},
 		"color": {
-		"background": "var(--wp--preset--color--gw-white)",
-		"text": "var(--wp--preset--color--gw-title-color)"
+			"background": "var(--wp--preset--color--gw-white)",
+			"text": "var(--wp--preset--color--gw-title-color)"
 		},
 		"elements": {
 			"link": {
