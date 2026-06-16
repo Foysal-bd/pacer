@@ -53,14 +53,9 @@
 					"name": "System"
 				},
 				{
-					"fontFamily": "'Domine', sans-serif",
-					"slug": "domine",
-					"name": "Domine"
-				},
-				{
-					"fontFamily": "'Josefin Sans', sans-serif",
-					"slug": "josefin-sans",
-					"name": "Josefin Sans"
+					"fontFamily": "'Instrument Sans', sans-serif",
+					"slug": "instrument-sans",
+					"name": "Instrument Sans"
 				}
 			]
 		},
@@ -73,13 +68,13 @@
 			"blockGap": "0"
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--domine)",
+			"fontFamily": "var(--wp--preset--font-family--instrument-sans)",
 			"fontSize": "1rem",
 			"lineHeight": "1.8"
 		},
 		"color": {
-			"background": "var(--wp--preset--color--white)",
-			"text": "var(--wp--preset--color--dark-charcoal)"
+			"background": "var(--wp--preset--color--gh-white)",
+			"text": "var(--wp--preset--color--gh-title-color)"
 		},
 		"elements": {
 			"link": {
@@ -87,73 +82,73 @@
 					"textDecoration": "none"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--raisin-black)"
+					"text": "var(--wp--preset--color--gh-title-color)"
 				}
 			},
 			"h1": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--josefin-sans)",
+					"fontFamily": "var(--wp--preset--font-family--instrument-sans)",
 					"fontSize": "2.25rem",
 					"fontWeight": "600",
 					"lineHeight": "1.4"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--raisin-black)"
+					"text": "var(--wp--preset--color--gh-title-color)"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--josefin-sans)",
+					"fontFamily": "var(--wp--preset--font-family--instrument-sans)",
 					"fontSize": "2rem",
 					"fontWeight": "600",
 					"lineHeight": "1.45"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--raisin-black)"
+					"text": "var(--wp--preset--color--gh-title-color)"
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--josefin-sans)",
+					"fontFamily": "var(--wp--preset--font-family--instrument-sans)",
 					"fontSize": "1.75rem",
 					"fontWeight": "600",
 					"lineHeight": "1.5"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--raisin-black)"
+					"text": "var(--wp--preset--color--gh-title-color)"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--josefin-sans)",
+					"fontFamily": "var(--wp--preset--font-family--instrument-sans)",
 					"fontSize": "1.5rem",
 					"fontWeight": "600",
 					"lineHeight": "1.55"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--raisin-black)"
+					"text": "var(--wp--preset--color--gh-title-color)"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--josefin-sans)",
+					"fontFamily": "var(--wp--preset--font-family--instrument-sans)",
 					"fontSize": "1.125rem",
 					"fontWeight": "600",
 					"lineHeight": "1.6"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--raisin-black)"
+					"text": "var(--wp--preset--color--gh-title-color)"
 				}
 			},
 			"h6": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--josefin-sans)",
+					"fontFamily": "var(--wp--preset--font-family--instrument-sans)",
 					"fontSize": "1rem",
 					"fontWeight": "600",
 					"lineHeight": "1.65"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--raisin-black)"
+					"text": "var(--wp--preset--color--gh-title-color)"
 				}
 			}
 		},
@@ -174,11 +169,11 @@
 			},
 			"core/navigation": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--josefin-sans)",
+					"fontFamily": "var(--wp--preset--font-family--instrument-sans)",
 					"fontSize": "0.875rem"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--raisin-black)"
+					"text": "var(--wp--preset--color--gh-title-color)"
 				},
 				"spacing": {
 					"padding": {
@@ -198,14 +193,14 @@
 			},
 			"core/button": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--josefin-sans)",
+					"fontFamily": "var(--wp--preset--font-family--instrument-sans)",
 					"fontSize": "0.875rem",
 					"fontWeight": "600",
 					"lineHeight": "2.6875rem"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--white)",
-					"background": "var(--wp--preset--color--raisin-black)"
+					"text": "var(--wp--preset--color--gh-white)",
+					"background": "var(--wp--preset--color--gh-title-color)"
 				},
 				"border": {
 					"radius": "0"
