@@ -1,0 +1,31 @@
+.gw-header {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 12px;
+	border-radius: 16px;
+	background-color: var(--gw-secondary-bg);
+	box-shadow: inset 0 0 0 1px #373737;
+}
+
+.gw-logo {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.gw-navigation ul{
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.gw-actions {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
