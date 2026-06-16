@@ -9,54 +9,39 @@
 		"color": {
 			"palette": [
 				{
-					"color": "#202020",
-					"name": "Raisin Black",
-					"slug": "raisin-black"
+					"color": "#191919",
+					"name": "GH Primary BG",
+					"slug": "gh-primary-bg"
 				},
 				{
-					"color": "#303030",
-					"name": "Dark Charcoal",
-					"slug": "dark-charcoal"
+					"color": "#2B2B2B",
+					"name": "GH Secondary BG",
+					"slug": "gh-secondary-bg"
 				},
 				{
-					"color": "#707070",
-					"name": "Dark Silver",
-					"slug": "dark-silver"
+					"color": "#E8E8E8",
+					"name": "GH Menu Color",
+					"slug": "gh-menu-color"
 				},
 				{
-					"color": "#185adb",
-					"name": "Celtic Blue",
-					"slug": "celtic-blue"
+					"color": "#F2F2F2",
+					"name": "GH Title Color",
+					"slug": "gh-title-color"
 				},
 				{
-					"color": "#ffc947",
-					"name": "Crayola",
-					"slug": "crayola"
+					"color": "#C5C5C5",
+					"name": "GH Paragraph Color",
+					"slug": "gh-paragraph-color"
 				},
 				{
-					"color": "#c32148",
-					"name": "Bright Maroon",
-					"slug": "bright-maroon"
+					"color": "#484848",
+					"name": "GH Gray",
+					"slug": "gh-gray"
 				},
 				{
-					"color": "#dbdbdb",
-					"name": "Light Silver",
-					"slug": "light-silver"
-				},
-				{
-					"color": "#e4e4e4",
-					"name": "Platinum",
-					"slug": "platinum"
-				},
-				{
-					"color": "#f6f6f6",
-					"name": "Cultured",
-					"slug": "cultured"
-				},
-				{
-					"color": "#ffffff",
-					"name": "White",
-					"slug": "white"
+					"color": "#FFFFFF",
+					"name": "GH White",
+					"slug": "gh-white"
 				}
 			]
 		},
