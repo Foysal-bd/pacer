@@ -1,0 +1,13 @@
+{
+    "name": "sabuz/pacer",
+    "authors": [
+        {
+            "name": "Nazmul Sabuz",
+            "email": "naz.sabuz@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "automattic/vipwpcs": "^2.3",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1"
+    }
+}

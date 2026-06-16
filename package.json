@@ -1,0 +1,24 @@
+{
+  "name": "pacer",
+  "version": "1.0.8",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass src/scss -o public/css --output-style expanded",
+    "dev": "node-sass --watch src/scss -o public/css --output-style expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabuz/pacer.git"
+  },
+  "author": "nazsabuz (https://profiles.wordpress.org/nazsabuz/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabuz/pacer/issues"
+  },
+  "homepage": "https://github.com/sabuz/pacer#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {}
+}
