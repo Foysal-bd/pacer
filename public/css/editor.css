@@ -1162,8 +1162,30 @@ body {
   font-style: normal;
 }
 
-body {
+/*global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
   font-family: 'Instrument Sans', sans-serif;
 }
 
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* home */
+.gw-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
