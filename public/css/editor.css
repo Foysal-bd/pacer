@@ -29,39 +29,6 @@ body {
   --container-max-width: 1200px;
 }
 
-/* font */
-/* Regular (400) */
-@font-face {
-  font-family: 'Instrument Sans';
-  src: url("/public/assets/fonts/InstrumentSans-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-
-/* Medium (500) */
-@font-face {
-  font-family: 'Instrument Sans';
-  src: url("/public/assets/fonts/InstrumentSans-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-
-/* Semi-Bold (600) */
-@font-face {
-  font-family: 'Instrument Sans';
-  src: url("/public/assets/fonts/InstrumentSans-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-
-/* Bold (700) */
-@font-face {
-  font-family: 'Instrument Sans';
-  src: url("/public/assets/fonts/InstrumentSans-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
-
 /*global */
 * {
   margin: 0;
@@ -89,7 +56,7 @@ button {
   all: unset;
 }
 
-/* home */
+/* header */
 .gw-header {
   position: sticky;
   top: 20px;
@@ -106,39 +73,39 @@ button {
   box-shadow: inset 0 0 0 1px #373737;
 }
 
-.gw-logo a {
+.gw-header .gw-logo a {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.gw-navigation ul {
+.gw-header .gw-navigation ul {
   display: flex;
   align-items: center;
   gap: 24px;
 }
 
-.gw-navigation ul a {
+.gw-header .gw-navigation ul a {
   color: var(--gw-menu-color);
   font-size: var(--font-size-14);
   transition: color 0.3s;
 }
 
-.gw-navigation ul a:hover {
+.gw-header .gw-navigation ul a:hover {
   color: var(--gw-brand-color);
 }
 
-.gw-navigation ul a:active {
+.gw-header .gw-navigation ul a:active {
   color: var(--gw-brand-color);
 }
 
-.gw-actions {
+.gw-header .gw-actions {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.gw-theme-toggle {
+.gw-header .gw-actions .gw-theme-toggle {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -150,23 +117,82 @@ button {
   box-shadow: inset 0 0 0 1px #5E5E5E, 0 3px 6px rgba(255, 255, 255, 0.1);
 }
 
-.gw-theme-toggle svg {
+.gw-header .gw-actions .gw-theme-toggle svg {
   width: 16px;
   height: 16px;
 }
 
-.gw-signup-button {
+.gw-header .gw-actions .gw-signup-button {
   padding: 4px 8px;
   border-radius: 8px;
   background-color: var(--gw-white);
   box-shadow: inset 0 0 0 1px #A9A9A9, 0 4px 4px rgba(255, 255, 255, 0.16);
 }
 
-.gw-signup-button a {
+.gw-header .gw-actions .gw-signup-button a {
   font-size: var(--font-size-14);
   line-height: var(--line-height-normal);
   color: var(--gw-black);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.gw-header .gw-actions .gw-signup-button a svg {
+  width: 14px;
+  height: 14px;
+}
+
+/* home */
+.gw-hero {
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.gw-hero .gw-hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 80px 0;
+}
+
+.gw-hero .gw-hero-content .gw-hero-title {
+  font-family: 'Instrument Sans', sans-serif;
+  color: var(--gw-tittle-color);
+  line-height: 115%;
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.gw-hero .gw-hero-content .gw-hero-description {
+  color: var(--gw-paragraph-color);
+  font-size: var(--font-size-18);
+  line-height: var(--line-height-normal);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.gw-hero .gw-hero-content .gw-hero-cta-btn {
+  display: block;
+  margin-top: 8px;
+  font-size: var(--font-size-14);
+  line-height: var(--line-height-normal);
+  background-color: var(--gw-brand-color);
+  padding: 4px 11px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 1px #C60303, inset 0 4px 4px rgba(235, 213, 213, 0.3), 0 4px 7px rgba(198, 0, 0, 0.1);
+}
+
+.gw-hero .gw-hero-content .gw-hero-cta-btn a {
+  color: var(--gw-white);
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }

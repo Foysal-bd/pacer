@@ -4,11 +4,11 @@ $public_path: "./public";
 /* variables */
 @import "./_variables";
 
-/* font */
-@import "./_font";
-
 /*global */
 @import "./_global";
+
+/* header */
+@import "./_header";
 
 /* home */
 @import "./_home";

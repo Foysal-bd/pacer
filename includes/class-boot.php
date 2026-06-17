@@ -61,7 +61,7 @@ final class Boot {
 		add_theme_support( 'editor-styles' );
 		add_editor_style(
 			array(
-				'https://fonts.googleapis.com/css2?family=Domine&family=Josefin+Sans:wght@600&display=swap',
+				'https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..700&display=swap',
 				'public/css/editor.css',
 			)
 		);
@@ -77,7 +77,7 @@ final class Boot {
 		// phpcs:ignore
 		wp_enqueue_style(
 			'google-fonts',
-			'https://fonts.googleapis.com/css2?family=Domine&family=Josefin+Sans:wght@600&display=swap',
+			'https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..700&display=swap',
 			array(),
 			null
 		);
