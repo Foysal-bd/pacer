@@ -1,19 +1,14 @@
 $env: "edit";
 $public_path: "./..";
 
-@import "./mixins";
+/* variables */
+@import "./variables";
 
-/* reset */
-@import "./reset";
+/* font */
+@import "./font";
 
-/* html components */
-@import "./html_components";
+/*global */
+@import "./global";
 
-/* form */
-@import "./form";
-
-/* framework */
-@import "./framework";
-
-/* blocks */
-@import "./blocks";
+/* home */
+@import "./home";
