@@ -25,6 +25,8 @@ body {
   /* Line heights */
   --line-height-tight: 1.2;
   --line-height-normal: 1.5;
+  /* Container */
+  --container-max-width: 1200px;
 }
 
 /* font */
@@ -92,7 +94,7 @@ button {
   position: sticky;
   top: 20px;
   width: 100%;
-  max-width: 1200px;
+  max-width: var(--container-max-width);
   margin: 0 auto;
   padding: 24px;
   display: flex;
