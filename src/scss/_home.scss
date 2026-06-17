@@ -14,7 +14,7 @@
 	box-shadow: inset 0 0 0 1px #373737;
 }
 
-.gw-logo {
+.gw-logo a {
 	display: flex;
 	align-items: center;
 	gap: 8px;
@@ -25,9 +25,9 @@
 	align-items: center;
 	gap: 24px;
 
-	li a {
+	a {
 		color: var(--gw-menu-color);
-		font-size: var(--font-size-16);
+		font-size: var(--font-size-14);
 		transition: color 0.3s;
 
 		&:hover {
@@ -60,8 +60,24 @@
 	background-color: var(--gw-gray);
 	box-shadow: inset 0 0 0 1px #5E5E5E, 0 3px 6px rgba(255, 255, 255, 0.1);
 
-	&:hover {
-		color: #D5D5D5;
-		box-shadow: inset 0 0 0 1px #5E5E5E, 0 3px 6px rgba(255, 255, 255, 0.1);
+	svg {
+		width: 16px;
+		height: 16px;
+	}
+}
+
+.gw-signup-button {
+	padding: 4px 8px;
+	border-radius: 8px;
+	background-color: var(--gw-white);
+	box-shadow: inset 0 0 0 1px #A9A9A9, 0 4px 4px rgba(255, 255, 255, 0.16);
+
+	a {
+		font-size: var(--font-size-14);
+		line-height: var(--line-height-normal);
+		color: var(--gw-black);
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 }
