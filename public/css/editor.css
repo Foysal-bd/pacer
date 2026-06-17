@@ -33,7 +33,7 @@ body {
 /* Regular (400) */
 @font-face {
   font-family: 'Instrument Sans';
-  src: url("/public/assets/fonts/InstrumentSans-Regular.ttf") format("truetype");
+  src: url("../../public/assets/fonts/InstrumentSans-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -41,7 +41,7 @@ body {
 /* Medium (500) */
 @font-face {
   font-family: 'Instrument Sans';
-  src: url("/public/assets/fonts/InstrumentSans-Medium.ttf") format("truetype");
+  src: url("../../public/assets/fonts/InstrumentSans-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
@@ -49,7 +49,7 @@ body {
 /* Semi-Bold (600) */
 @font-face {
   font-family: 'Instrument Sans';
-  src: url("/public/assets/fonts/InstrumentSans-SemiBold.ttf") format("truetype");
+  src: url("../../public/assets/fonts/InstrumentSans-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
@@ -57,7 +57,7 @@ body {
 /* Bold (700) */
 @font-face {
   font-family: 'Instrument Sans';
-  src: url("/public/assets/fonts/InstrumentSans-Bold.ttf") format("truetype");
+  src: url("../../public/assets/fonts/InstrumentSans-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
@@ -177,3 +177,25 @@ button {
 }
 
 /* home */
+.gw-hero {
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.gw-hero .gw-hero-content {
+  padding: 80px 0;
+}
+
+.gw-hero .gw-hero-content .gw-hero-title {
+  font-family: 'Instrument Sans', sans-serif;
+  color: var(--gw-tittle-color);
+  line-height: 115%;
+  font-size: 72px;
+  font-weight: 600;
+}
