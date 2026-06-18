@@ -73,39 +73,39 @@ button {
   box-shadow: inset 0 0 0 1px #373737;
 }
 
-.gw-header .gw-logo a {
+.gw-header__logo a {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.gw-header .gw-navigation ul {
+.gw-header__navigation ul {
   display: flex;
   align-items: center;
   gap: 24px;
 }
 
-.gw-header .gw-navigation ul a {
+.gw-header__navigation ul a {
   color: var(--gw-menu-color);
   font-size: var(--font-size-14);
   transition: color 0.3s;
 }
 
-.gw-header .gw-navigation ul a:hover {
+.gw-header__navigation ul a:hover {
   color: var(--gw-brand-color);
 }
 
-.gw-header .gw-navigation ul a:active {
+.gw-header__navigation ul a:active {
   color: var(--gw-brand-color);
 }
 
-.gw-header .gw-actions {
+.gw-header__actions {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.gw-header .gw-actions .gw-theme-toggle {
+.gw-header__actions .gw-theme-toggle {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -117,19 +117,19 @@ button {
   box-shadow: inset 0 0 0 1px #5E5E5E, 0 3px 6px rgba(255, 255, 255, 0.1);
 }
 
-.gw-header .gw-actions .gw-theme-toggle svg {
+.gw-header__actions .gw-theme-toggle svg {
   width: 16px;
   height: 16px;
 }
 
-.gw-header .gw-actions .gw-signup-button {
+.gw-header__actions .gw-signup-button {
   padding: 4px 8px;
   border-radius: 8px;
   background-color: var(--gw-white);
   box-shadow: inset 0 0 0 1px #A9A9A9, 0 4px 4px rgba(255, 255, 255, 0.16);
 }
 
-.gw-header .gw-actions .gw-signup-button a {
+.gw-header__actions .gw-signup-button a {
   font-size: var(--font-size-14);
   line-height: var(--line-height-normal);
   color: var(--gw-black);
@@ -138,7 +138,7 @@ button {
   justify-content: center;
 }
 
-.gw-header .gw-actions .gw-signup-button a svg {
+.gw-header__actions .gw-signup-button a svg {
   width: 14px;
   height: 14px;
 }
