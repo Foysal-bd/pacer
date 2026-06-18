@@ -56,14 +56,17 @@ button {
   all: unset;
 }
 
+.gw-container {
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
 /* header */
 .gw-header {
   position: sticky;
   top: 20px;
-  width: 100%;
-  max-width: var(--container-max-width);
-  margin: 0 auto;
-  padding: 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
