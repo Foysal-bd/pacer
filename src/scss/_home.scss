@@ -1,3 +1,4 @@
+// Hero Section Styles
 .gw-hero {
 	width: 100%;
 	max-width: var(--container-max-width);
@@ -85,5 +86,64 @@
 			width: 24px;
 			height: 24px;
 		}
+	}
+}
+
+// Features Section Styles
+.gw-features {
+	margin-bottom: 156px;
+
+	&__title {
+		color: var(--gw-tittle-color);
+		line-height: var(--line-height-tight);
+		font-size: var(--font-size-48);
+		font-weight: 500;
+		text-align: center;
+		margin-bottom: 56px;
+	}
+
+	&__grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		padding: 24px 32px;
+		border-right: 1px solid var(--gw-secondary-bg);
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+		&:nth-child(4n),
+		&:last-child {
+			border-right: 0;
+		}
+	}
+
+	&__item-icon {
+		width: 48px;
+		height: 48px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: var(--gw-white);
+		background-color: var(--gw-gray);
+		box-shadow: inset 0 0 0 1px #616161;
+		border-radius: 11px;
+		margin-bottom: 16px;
+	}
+
+	&__item-title {
+		font-size: var(--font-size-18);
+		color: var(--gw-tittle-color);
+		line-height: var(--line-height-tight);
+		font-weight: 500;
+	}
+
+	&__item-description {
+		color: var(--gw-paragraph-color);
+		font-size: var(--font-size-16);
+		line-height: var(--line-height-normal);
 	}
 }

@@ -183,14 +183,6 @@
 					"blockGap": "1.5rem"
 				}
 			},
-			"core/paragraph": {
-				"spacing": {
-					"margin": {
-						"top": "1.5625rem",
-						"bottom": "1.5625rem"
-					}
-				}
-			},
 			"core/button": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--instrument-sans)",
